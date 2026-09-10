@@ -9,9 +9,17 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "Accueil", link: "/" },
+      { text: "A propos", link: "/about" },
     ],
+
+    notFound: {
+      title: "PAGE INTROUVABLE",
+      quote: "Cette page s'est perdue dans le cyberespace...",
+      linkLabel: "retour à l'accueil",
+      linkText: "Ramenez-moi à la maison",
+      code: "404",
+    },
 
     sidebar: [
       {
@@ -22,8 +30,6 @@ export default defineConfig({
         ],
       },
     ],
-
-    socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
   },
   appearance: false,
 })
