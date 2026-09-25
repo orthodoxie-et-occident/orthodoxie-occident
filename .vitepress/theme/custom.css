@@ -1,0 +1,8 @@
+:root {
+  --vp-font-family-base: "Inter", sans-serif;
+}
+
+.vp-doc p,
+.vp-doc li {
+  font-family: "Source Serif 4 Variable", serif;
+}
